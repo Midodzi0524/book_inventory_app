@@ -7,20 +7,16 @@ customtkinter.set_default_color_theme("green")
 root=customtkinter.CTk()
 root.geometry("500*350")
 
-#frame=customtkinter.CTkFrame(master=root)
-#frame.grid(pady=30,padx=70, )
-
-
-label1=customtkinter.CTkLabel(master=root,text="Title" )
+label1=customtkinter.CTkLabel(root,text="Title" )
 label1.grid(row=0,column=0)
 
-label2=customtkinter.CTkLabel(master=root,text="Author" )
+label2=customtkinter.CTkLabel(root,text="Author" )
 label2.grid(row=0,column=2)
 
-label3=customtkinter.CTkLabel(master=root,text="Year" )
+label3=customtkinter.CTkLabel(root,text="Year" )
 label3.grid(row=1,column=0)
 
-label4=customtkinter.CTkLabel(master=root,text="ISBN" )
+label4=customtkinter.CTkLabel(root,text="ISBN" )
 label4.grid(row=1,column=2) 
 
 title_text=StringVar()
